@@ -67,7 +67,7 @@ The differences in mean allowed amounts by age and condition were statistically 
 Non-group and Medicaid beneficiaries used more healthcare services than other groups. Medicaid members with cancer had the highest average allowed amounts, followed by Non-group and ESI members. Similarly, for heart diseases, Medicaid and Non-group beneficiaries had the highest costs. For patients with both conditions, Non-group and Medicaid also led in average costs.
 <img width="1092" alt="image" src="https://github.com/user-attachments/assets/6cfd179d-eecc-43a1-b624-f85ad232371c">
 
-> **💡Interpretation**
+> **💡INTERPETATION**
 > - Income and Coverage: Most Non-group enrollees and Medicaid members have incomes below 400% of the federal poverty level and often have only minimal essential coverage. They are more likely to be low-income individuals, families, pregnant women, the elderly, and people with disabilities.
 > - Health Risks: These groups are at higher risk of diseases due to poor lifestyle and living conditions, increasing their healthcare utilization.
 > - Care Quality and Access: Medicaid is often associated with lower care quality and poor outcomes, leading to more frequent care seeking. Patients also face challenges accessing routine and specialized care, worsening their conditions.
