@@ -1,0 +1,49 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library SYNUSA uses 1 concatenated paths.
+NOTE: DATA SynUSA.synusa_clms_2015_extr
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote SynUSA.synusa_clms_2015_extr (16 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA find_codes
+
+
+NOTE: Read 16 rows from SynUSA.synusa_clms_2015_extr.
+NOTE: Wrote find_codes (16 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table date_list created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table disease_count created.
+NOTE: PROC SQL statement used.
+NOTE: DATA disease_diagnosed
+
+
+NOTE: Read 8 rows from disease_count.
+NOTE: Wrote disease_diagnosed (8 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA condition_group
+
+
+NOTE: Read 8 rows from disease_diagnosed.
+NOTE: Wrote condition_group (8 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_conditions.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC PRINT data=disease_diagnosed
+
+NOTE: PROC PRINT completed: 8 observations printed, 6 variables

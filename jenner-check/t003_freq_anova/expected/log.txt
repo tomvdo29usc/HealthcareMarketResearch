@@ -1,0 +1,29 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA analysis_file
+
+NOTE: Processing inline DATALINES (18 lines)
+
+NOTE: Read 18 rows from DATALINES.
+NOTE: Wrote analysis_file (18 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_female.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_age_cat.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC SORT data=analysis_file
+
+NOTE: Read 18 rows from analysis_file.
+NOTE: Wrote analysis_file (18 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC ANOVA data=analysis_file
+
+NOTE: PROC ANOVA: using Python wrapper for advanced features
+NOTE: ODS plot written: anova_boxplot.spec.json
+NOTE: ODS plot written: anova_diagnostics.spec.json
+NOTE: PROC ANOVA: 18 observations, 1 effects analyzed

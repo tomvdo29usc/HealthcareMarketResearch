@@ -1,0 +1,58 @@
+---------------------------------------------- CONDITIONS=Both Conditions ----------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable                   Mean
+ -------------------------------
+ tot_primary_care      0.0000000
+ tot_cardiologist      1.0000000
+ tot_oncologist        1.0000000
+ tot_others            0.0000000
+ tot_inpatient         0.0000000
+ tot_outpatient        0.5000000
+ -------------------------------
+
+
+------------------------------------------------ CONDITIONS=Cancer Only ------------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable                   Mean
+ -------------------------------
+ tot_primary_care      0.5000000
+ tot_cardiologist      0.0000000
+ tot_oncologist        1.5000000
+ tot_others            0.0000000
+ tot_inpatient         0.0000000
+ tot_outpatient        1.0000000
+ -------------------------------
+
+
+-------------------------------------------- CONDITIONS=Heart Disease Only ---------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable                   Mean
+ -------------------------------
+ tot_primary_care      0.5000000
+ tot_cardiologist      1.0000000
+ tot_oncologist        0.0000000
+ tot_others            0.0000000
+ tot_inpatient         0.5000000
+ tot_outpatient        0.0000000
+ -------------------------------
+
+
+--------------------------------------------- CONDITIONS=Neither Condition ---------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable                   Mean
+ -------------------------------
+ tot_primary_care      1.0000000
+ tot_cardiologist      0.0000000
+ tot_oncologist        0.0000000
+ tot_others            0.5000000
+ tot_inpatient         0.0000000
+ tot_outpatient        0.0000000
+ -------------------------------

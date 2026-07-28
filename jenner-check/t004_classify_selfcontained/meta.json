@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_classify_selfcontained",
+  "source_file": "Codes/WhitePaper.sas",
+  "source_blob_sha": "b51f638c32e684b57fd43a07ed8485011698ff12",
+  "source_commit": "5c3aaba2f3454a519544822405e0a6c0da9ae43d",
+  "notes": "Self-contained single-file version of the disease-classification slice (upstream lines ~5-87): the author's array diag(3) + IN: ICD-9 prefix-match, packaged with its own inline mock claims (10 rows) so it runs from one POST with no autoexec/data files. Used as the copy-paste /v1/quick example in the PR. Author classification logic unchanged."
+}

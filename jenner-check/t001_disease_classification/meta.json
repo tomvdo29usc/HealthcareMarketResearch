@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_disease_classification",
+  "source_file": "Codes/WhitePaper.sas",
+  "source_blob_sha": "b51f638c32e684b57fd43a07ed8485011698ff12",
+  "source_commit": "5c3aaba2f3454a519544822405e0a6c0da9ae43d",
+  "notes": "Disease-classification slice (upstream lines ~5-87): array diag(3) with IN: ICD-9 prefix-match into cancer/heart_disease, PROC SQL per-person rollup, has_cancer_only/heart_disease_only/both/neither derivation. External libname SynUSA replaced with a WORK-backed mock claims table (16 rows) whose columns and ICD-9 codes exercise every classification branch. Author logic unchanged; only trailing DROP TABLE cleanup removed + a FREQ/PRINT summary added for visible output."
+}

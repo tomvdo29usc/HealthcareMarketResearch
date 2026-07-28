@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_freq_anova",
+  "source_file": "Codes/WhitePaper.sas",
+  "source_blob_sha": "b51f638c32e684b57fd43a07ed8485011698ff12",
+  "source_commit": "5c3aaba2f3454a519544822405e0a6c0da9ae43d",
+  "notes": "Descriptive + hypothesis-testing slice (upstream lines ~259-289): PROC FREQ on female/age_cat, PROC MEANS of tot_allowed_amt by condition, and PROC ANOVA of tot_allowed_amt across the four condition groups with a MEANS comparison. Raw SynUSA extracts are absent from the repo, so analysis_file is supplied directly as an 18-row mock carrying female/age_cat/conditions/tot_allowed_amt, with several rows per condition to keep the ANOVA classes non-degenerate. Statements are the author's."
+}

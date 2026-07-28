@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_visits_by_condition",
+  "source_file": "Codes/WhitePaper.sas",
+  "source_blob_sha": "b51f638c32e684b57fd43a07ed8485011698ff12",
+  "source_commit": "5c3aaba2f3454a519544822405e0a6c0da9ae43d",
+  "notes": "Care-utilization slice (upstream lines ~112-282): spec_cd -> primary_care/cardiologist/oncologist/others and pos_cd -> inpatient/outpatient, P vs F claim screening, PROC SQL max-within-date then sum-across-dates visit rollups, PROC MEANS of visit counts by condition. External libname SynUSA replaced with a WORK-backed mock claims table (18 rows) carrying bene_cat/spec_cd/pos_cd/claim_type that hit every provider and POS code. Author logic unchanged; final merge simplified to the two visit tables and grouped by the author's bene_cat label."
+}
