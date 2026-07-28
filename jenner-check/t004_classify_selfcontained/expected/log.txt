@@ -1,0 +1,25 @@
+NOTE: Option OBS changed to 100.
+NOTE: Option OBS changed to 100.
+NOTE: DATA claims
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote claims (10 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA find_codes
+
+
+NOTE: Read 10 rows from claims.
+NOTE: Wrote find_codes (10 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=find_codes
+
+NOTE: PROC PRINT completed: 10 observations printed, 5 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_cancer_heart_disease.spec.json
+NOTE: PROC FREQ statement used.

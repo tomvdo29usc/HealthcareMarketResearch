@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-28T00:42:55Z",
+  "_captured_run_id": "r_c1a5279b24cc4f04b869a2b1d3e4e790",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote physicians (14 rows, 11 columns).",
+    "NOTE: Table P_visits created.",
+    "NOTE: Table F_visits created.",
+    "NOTE: Wrote analysis_file (8 rows, 8 columns)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
